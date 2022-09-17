@@ -1,11 +1,4 @@
 
-.Background{
-    background-image: url("../Imagenes/Background.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 150vh;
-}
-
 /* Header start*/
 .Header{
     grid-column: 1/4;
@@ -31,7 +24,16 @@
     padding: 10px;
 }
 /*Header Fin*/
-/* Aqui va el centro*/
+/*Aqui va mi home */
+.Background{
+    background-image: url("../Imagenes/Background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.Background_home{
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
 h1{
     color: rgb(2, 9, 117);
     text-align: center;
@@ -39,14 +41,14 @@ h1{
     font-weight: 700;
     text-transform: uppercase;
 }
-.league_img{
+.league_1 img{
     background-color: rgba(0, 0, 0, 0.164);
     margin: 20px;
     width: 50%;
     position: relative;
     top: 70px;
 }
-.Parrafo__central{
+.League_2{
     background-color: rgba(0, 0, 0, 0.322);
     font-style: Arial;
     color: rgb(228, 241, 35);
