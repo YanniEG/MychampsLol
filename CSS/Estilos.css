@@ -83,7 +83,6 @@ h1{
     background-image: url(../Imagenes/mttargon-once-in-a-lifetime.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 150vh;
 }
 .img_lol{
     width: 300px;
@@ -104,7 +103,6 @@ h1{
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
-    height: 150vh;
 }
 /* Aqui comienza contacto*/
 .Bodycontact{
