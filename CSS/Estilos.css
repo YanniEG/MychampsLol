@@ -61,8 +61,8 @@ h1{
     width: 100%;
 }
 .League_2{
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(25, 1, 90);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(229, 133, 248);
     margin: 20px;
     padding: 10px;
     width: 50%;
@@ -79,6 +79,7 @@ h1{
     display: flex;
 }
 .rank_1{
+    font-family: 'Montserrat', sans-serif;
     width: 40%;
     margin: 20px;
     padding: 10px;
@@ -89,6 +90,7 @@ h1{
     color: rgb(207, 173, 247);
 }
 .rank_2{
+    font-family: 'Montserrat', sans-serif;
     color: rgb(207, 173, 247);
     margin: 20px;
     padding: 10px;
@@ -98,6 +100,7 @@ h1{
     justify-content: center;
 }
 .rank_3{
+    font-family: 'Montserrat', sans-serif;
     width: 30%;
     margin: 20px;
     padding: 10px;
@@ -123,6 +126,7 @@ h1{
     background-repeat: no-repeat;
 }
 .img_lol{
+    font-family: 'Montserrat Alternates', sans-serif;
     width: 250px;
     height: 250px;
     color: aliceblue;
@@ -138,7 +142,7 @@ h1{
 }
 .img_lol a{
     color: rgb(207, 173, 247);
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 .galery_img{
@@ -177,6 +181,7 @@ h1{
     width: 100%;
 }
 .containertext{
+    font-family: 'Montserrat', sans-serif;
     width: 50%;
     margin: 20px;
     padding: 10px;
