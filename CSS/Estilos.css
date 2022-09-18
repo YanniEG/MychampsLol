@@ -126,9 +126,10 @@ h1{
     background-repeat: no-repeat;
 }
 .img_lol{
+    margin: 20px;
+    padding: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
     width: 250px;
-    height: 250px;
     color: aliceblue;
     display: flex;
     flex-direction: column;
