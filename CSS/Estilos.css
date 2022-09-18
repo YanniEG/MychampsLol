@@ -21,8 +21,9 @@
     text-align: right;
 }
 .Navegacion_Link{
-    background-color: rgba(0, 0, 0, 0.356);
+    margin: 10px;
     padding: 10px;
+    text-decoration: none;
 }
 /*Header Fin*/
 /*Aqui va mi home */
@@ -124,13 +125,21 @@ h1{
     background-repeat: no-repeat;
 }
 .img_lol{
-    width: 300px;
+    width: 250px;
     height: 250px;
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .img_lol img{
     height: auto;
     width: 100%;
+}
+.img_lol a{
+    color: rgb(207, 173, 247);
 }
 .galery_img{
     display: flex;
@@ -147,6 +156,34 @@ h1{
 /* Aqui finaliza gallery*/
 /* Inicia about me*/
 .Bodyaboutme{
+    background-image: url(../Imagenes/shurima-ruins.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.containermain{
+    display: flex;
+
+}
+.containerimg{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerimg img{
+    width: 100%;
+}
+.containertext{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: aliceblue;
 }
 .Bodyme{
     display: grid;
