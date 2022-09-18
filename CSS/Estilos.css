@@ -21,6 +21,7 @@
     text-align: right;
 }
 .Navegacion_Link{
+    font-family: 'Montserrat', sans-serif;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
@@ -41,9 +42,9 @@
     display: flex;
 }
 h1{
+    font-family: 'Roboto', sans-serif;
     color: rgb(2, 9, 117);
     text-align: center;
-    font-style: Times;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -60,7 +61,7 @@ h1{
     width: 100%;
 }
 .League_2{
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(25, 1, 90);
     margin: 20px;
     padding: 10px;
@@ -85,11 +86,9 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-style: arial;
     color: rgb(207, 173, 247);
 }
 .rank_2{
-    font-style: times;
     color: rgb(207, 173, 247);
     margin: 20px;
     padding: 10px;
@@ -106,7 +105,6 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-style: arial;
     color: rgb(207, 173, 247);
 }
 .Bodyrank{
@@ -208,10 +206,17 @@ h1{
 }
 .Formulario_parrafo{
     color: rgb(207, 173, 247);
+    margin: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-items: center;
     justify-content: center;
+}
+.Formulario_parrafo p{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
 }
 .bodycontact{
     background-image: url("../Imagenes/Teemo_14.jpg");
@@ -228,10 +233,16 @@ h1{
 /*Aqui finaliza contacto*/
 /*Aqui comienza mi footer*/
 .Pie{
+    display: flex;
     background-color: rgba(0, 0, 0, 0.178);
-    color: blue;
-    text-align: right;
+    color: black;
     grid-column: 1/4;
+}
+.Pie h3{
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+
 }
 .logo2{
     text-align: left;
