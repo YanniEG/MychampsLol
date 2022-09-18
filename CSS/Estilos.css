@@ -1,7 +1,8 @@
 
-/* Header start*/
+/* Header general*/
 .Header{
     grid-column: 1/4;
+    margin: 10px;
 }
 .Header_logo{
     text-align: left;
@@ -31,8 +32,9 @@
     background-position: center;
 }
 .Background_home{
-    grid-template-rows: auto;
-    grid-template-columns: auto;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
 }
 h1{
     color: rgb(2, 9, 117);
@@ -61,22 +63,15 @@ h1{
 .Centro{
     background-color: rgba(190, 136, 18, 0.048);
 }
-/*Aqui comienza mi footer*/
-.Pie{
-    background-color: rgba(0, 0, 0, 0.178);
-    color: blue;
-    text-align: right;
-    grid-column: 1/4;
-}
-.logo2{
-    text-align: left;
-}
-/* Aqui termina*/
 /* Aqui inicia rango*/
 .Bodyrank{
     background-image: url(../Imagenes/freljord-frostguard.jpg);
     background-size: cover;
-    height: 100vh;
+}
+.Bodyrankme{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
 }
 /* Aqui inicia galeria*/
 .Bodygallery{
@@ -104,16 +99,35 @@ h1{
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
 }
+/* Aqui finaliza gallery*/
+/* Inicia about me*/
+.Bodyme{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+}
 /* Aqui comienza contacto*/
 .Bodycontact{
     background-image: url("../Imagenes/Teemo_14.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+
 }
 .Grilla_contact{
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+
 }
+/*Aqui finaliza contacto*/
+/*Aqui comienza mi footer*/
+.Pie{
+    background-color: rgba(0, 0, 0, 0.178);
+    color: blue;
+    text-align: right;
+    grid-column: 1/4;
+}
+.logo2{
+    text-align: left;
+}
+/* Aqui termina*/
