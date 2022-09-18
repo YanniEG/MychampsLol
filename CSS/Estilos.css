@@ -38,8 +38,6 @@
 }
 .home_container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 h1{
     color: rgb(2, 9, 117);
@@ -49,23 +47,27 @@ h1{
     text-transform: uppercase;
 }
 .league_1{
-    width: 40%;
+    width: 50%;
     margin: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .league_1 img{
-    margin: 20px;
     width: 100%;
 }
 .League_2{
-    font-style: Arial;
-    color: rgb(228, 241, 35);
+    font-style: italic;
+    color: rgb(2, 203, 253);
     margin: 20px;
     padding: 10px;
-    width: 40%;
-    position: relative;
-    bottom: 50%;
-    left: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .Centro{
     background-color: rgba(190, 136, 18, 0.048);
@@ -73,7 +75,38 @@ h1{
 /* Aqui inicia rango*/
 .container_rank{
     display: flex;
-    flex-direction: row;
+}
+.rank_1{
+    width: 40%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: arial;
+    color: aliceblue;
+}
+.rank_2{
+    font-style: times;
+    color: rgb(213, 205, 255);
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rank_3{
+    width: 30%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: arial;
+    color: aliceblue;
 }
 .Bodyrank{
     background-image: url(../Imagenes/freljord-frostguard.jpg);
@@ -93,6 +126,7 @@ h1{
 .img_lol{
     width: 300px;
     height: 250px;
+    color: aliceblue;
 }
 .img_lol img{
     height: auto;
@@ -113,7 +147,6 @@ h1{
 /* Aqui finaliza gallery*/
 /* Inicia about me*/
 .Bodyaboutme{
-
 }
 .Bodyme{
     display: grid;
