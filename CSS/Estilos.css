@@ -36,6 +36,11 @@
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
 }
+.home_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 h1{
     color: rgb(2, 9, 117);
     text-align: center;
@@ -43,27 +48,33 @@ h1{
     font-weight: 700;
     text-transform: uppercase;
 }
-.league_1 img{
-    background-color: rgba(0, 0, 0, 0.164);
+.league_1{
+    width: 40%;
     margin: 20px;
-    width: 50%;
-    position: relative;
-    top: 70px;
+    padding: 10px;
+}
+.league_1 img{
+    margin: 20px;
+    width: 100%;
 }
 .League_2{
-    background-color: rgba(0, 0, 0, 0.322);
     font-style: Arial;
     color: rgb(228, 241, 35);
     margin: 20px;
+    padding: 10px;
     width: 40%;
     position: relative;
-    bottom: 320px;
-    left: 650px;
+    bottom: 50%;
+    left: 50%;
 }
 .Centro{
     background-color: rgba(190, 136, 18, 0.048);
 }
 /* Aqui inicia rango*/
+.container_rank{
+    display: flex;
+    flex-direction: row;
+}
 .Bodyrank{
     background-image: url(../Imagenes/freljord-frostguard.jpg);
     background-size: cover;
@@ -74,7 +85,7 @@ h1{
     grid-template-columns: auto 1fr auto;
 }
 /* Aqui inicia galeria*/
-.Bodygallery{
+.bodygallery{
     background-image: url(../Imagenes/mttargon-once-in-a-lifetime.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,20 +98,23 @@ h1{
     height: auto;
     width: 100%;
 }
-.Galery_img{
+.galery_img{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     
 }
-.Grilla_galery{
+.grilla_galery{
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
 }
 /* Aqui finaliza gallery*/
 /* Inicia about me*/
+.Bodyaboutme{
+
+}
 .Bodyme{
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -121,13 +135,13 @@ h1{
 .Formulario_parrafo{
     display: flex;
 }
-.Bodycontact{
+.bodycontact{
     background-image: url("../Imagenes/Teemo_14.jpg");
     background-size: cover;
     background-position: center;
 
 }
-.Grilla_contact{
+.grilla_contact{
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
