@@ -61,7 +61,7 @@ h1{
 }
 .League_2{
     font-style: italic;
-    color: rgb(2, 203, 253);
+    color: rgb(25, 1, 90);
     margin: 20px;
     padding: 10px;
     width: 50%;
@@ -86,11 +86,11 @@ h1{
     align-items: center;
     justify-content: center;
     font-style: arial;
-    color: aliceblue;
+    color: rgb(207, 173, 247);
 }
 .rank_2{
     font-style: times;
-    color: rgb(213, 205, 255);
+    color: rgb(207, 173, 247);
     margin: 20px;
     padding: 10px;
     display: flex;
@@ -107,7 +107,7 @@ h1{
     align-items: center;
     justify-content: center;
     font-style: arial;
-    color: aliceblue;
+    color: rgb(207, 173, 247);
 }
 .Bodyrank{
     background-image: url(../Imagenes/freljord-frostguard.jpg);
@@ -140,6 +140,8 @@ h1{
 }
 .img_lol a{
     color: rgb(207, 173, 247);
+    font-style: italic;
+    text-decoration: none;
 }
 .galery_img{
     display: flex;
@@ -183,7 +185,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    color: aliceblue;
+    color: rgb(207, 173, 247);
 }
 .Bodyme{
     display: grid;
@@ -195,15 +197,21 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .Formulario h3{
+    color: rgb(207, 173, 247);
     text-align: center;
     font-style: Times;
     font-weight: 700;
     text-transform: uppercase;   
 }
 .Formulario_parrafo{
+    color: rgb(207, 173, 247);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .bodycontact{
     background-image: url("../Imagenes/Teemo_14.jpg");
