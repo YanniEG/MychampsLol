@@ -107,6 +107,20 @@ h1{
     grid-template-columns: auto 1fr auto;
 }
 /* Aqui comienza contacto*/
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Formulario h3{
+    text-align: center;
+    font-style: Times;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+.Formulario_parrafo{
+    display: flex;
+}
 .Bodycontact{
     background-image: url("../Imagenes/Teemo_14.jpg");
     background-size: cover;
