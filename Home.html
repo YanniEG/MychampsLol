@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summoner_Home</title>
     <link rel="stylesheet" href="./CSS/Estilos.css">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
 </head>
 <body>
     <div class=" Background_home">
@@ -28,7 +29,7 @@
         </header>
         <!--Tengo problemas aqui para acomodar las imagenes aunque reviso que se puede generar con flex que aun no va dentro de esta preentrega-->
         <main>
-            <h1>Summoner page de league of legends</h1>
+            <h1 class="wow animate__fadeInUp">Summoner page de league of legends</h1>
             <section class="home_container">
                 <div class="league_1">
                     <img src="./Imagenes/League of legends.jpg" alt="Imagen del juego">
@@ -36,7 +37,6 @@
                 <div class="League_2">
                     <h2> Benvenidos todos</h2>
                     <p> League of legends es un juego de estrategia por equipos en el que dos equipos confirmados por 5 campeones poderosos se enfrentan para destruir la base del otro.  El juego ha gozado de gran fama durante los ultimos años, donde inclusive el mundial de LoL, que se celebra cada año se posiciona como el evento deportivo con mas espectadores a nivel mundial solo detrás del super bowl.
-                        Si resultan interesados en jugar en algún momento, haganme caso y no lo hagan, en latinoameria son re toxicos y no vale la pena su salud emocional
                         </p>
                 </div>
             </section>
@@ -49,5 +49,10 @@
             <h3>El contenido de esta plataforma es propiedad de riot games inc. y esta siendo utilizado para visualizacion del perfil del jugador</h3>  
         </footer>
     </div>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
 </body>
 </html>

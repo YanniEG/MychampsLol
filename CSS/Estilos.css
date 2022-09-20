@@ -14,7 +14,6 @@
     width: 100%;
 }
 .Navegacion{
-    color: rgb(177, 161, 250);
     text-align: right;
     padding: 10px;
 
@@ -26,10 +25,14 @@
     text-align: right;
 }
 .Navegacion_Link{
+    color: #03A9F4;
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
+}
+.Navegacion_Link:hover{
+    color: rgb(10, 194, 169);
 }
 /*Header Fin*/
 /*Aqui va mi home */
@@ -43,10 +46,12 @@
 }
 .home_container{
     display: flex;
+    margin: 20px;
+    padding: 10px;
 }
 h1{
     font-family: 'Roboto', sans-serif;
-    color: rgb(2, 9, 117);
+    color:#1976D2;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
@@ -65,7 +70,7 @@ h1{
 }
 .League_2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(229, 133, 248);
+    color: rgba(0, 0, 0, 0);
     margin: 20px;
     padding: 10px;
     width: 50%;
@@ -73,6 +78,10 @@ h1{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+.League_2:hover{
+    background-color: rgba(3, 3, 3, 0.411);
+    color: #B3E5FC;
 }
 .Centro{
     background-color: rgba(190, 136, 18, 0.048);
@@ -87,6 +96,8 @@ h1{
 }
 .container_rank{
     display: flex;
+    margin: 20px;
+    padding: 10px;
 }
 .rank_1{
     font-family: 'Montserrat', sans-serif;
@@ -97,11 +108,11 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: rgb(207, 173, 247);
+    color: #FFFFFF;
 }
 .rank_2{
     font-family: 'Montserrat', sans-serif;
-    color: rgb(207, 173, 247);
+    color: #B3E5FC;
     margin: 20px;
     padding: 10px;
     display: flex;
@@ -118,7 +129,7 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: rgb(207, 173, 247);
+    color: #FFFFFF;
 }
 /* Aqui inicia galeria*/
 .grilla_galery{
@@ -134,33 +145,40 @@ h1{
     padding: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
     width: 250px;
-    color: aliceblue;
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
+.img_lol img:hover{
+    transform: scale(2,2);
+}
 .img_lol img{
     height: auto;
     width: 100%;
 }
 .img_lol a{
-    color: rgb(207, 173, 247);
+    color: #1976D2;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+}
+.img_lol a:hover{
+    color: black;
 }
 .galery_img{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 /* Aqui finaliza gallery*/
 /* Inicia about me*/
 .containermain{
     display: flex;
+    margin: 20px;
+    padding: 10px;
 
 }
 .containerimg{
@@ -201,7 +219,7 @@ h1{
     justify-content: center;
 }
 .Formulario h3{
-    color: rgb(207, 173, 247);
+    color: white;
     text-align: center;
     font-style: Times;
     font-weight: 700;
@@ -220,6 +238,8 @@ h1{
     display: flex;
     justify-content: flex-start;
     text-align: center;
+    margin: 20px;
+    padding: 10px;
 }
 .grilla_contact{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Imagenes/Teemo_14.jpg");
@@ -235,7 +255,6 @@ h1{
 /*Aqui comienza mi footer*/
 .Pie{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.178);
     color: black;
     grid-column: 1/4;
 }
