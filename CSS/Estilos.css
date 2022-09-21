@@ -16,6 +16,7 @@
 .Navegacion{
     text-align: right;
     padding: 10px;
+    justify-content: flex-end;
 
 }
 .Navegacion ul{
@@ -25,18 +26,33 @@
     text-align: right;
 }
 .Navegacion_Link{
-    color: #b4b3fc;
+    color:rgb(10, 194, 170);
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
+    position: relative;
 }
-.Navegacion_Link:hover{
-    color: rgb(10, 194, 169);
+.Navegacion_Link:after{
+    content: "";
+    width: 0;
+    height: 4px;
+    background-color: rgb(48, 87, 81);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .5s;
+    will-change: width;
+
+}
+.Navegacion_Link:hover::after{
+    width: 100%;
+    right: 0;
+    color: cadetblue;
 }
 /*Header Fin*/
 /*Aqui va mi home */
-.Background_home{
+.grillahome{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url("../Imagenes/Background.jpg");
     background-size: cover;
     background-position: center;
@@ -66,6 +82,7 @@ h1{
     justify-content: center;
 }
 .league_1 img{
+    height: auto;
     width: 100%;
 }
 .League_2{
@@ -87,21 +104,17 @@ h1{
     background-color: rgba(190, 136, 18, 0.048);
 }
 /* Aqui inicia rango*/
-.Bodyrankme{
+.grillarank{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../Imagenes/freljord-frostguard.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-rows: auto 1fr auto;
     grid-template-columns: auto 1fr auto;
 }
-.container_rank{
-    display: flex;
-    margin: 20px;
-    padding: 10px;
-}
 .rank_1{
     font-family: 'Montserrat', sans-serif;
-    width: 40%;
+    width: 100%;
     margin: 20px;
     padding: 10px;
     display: flex;
@@ -109,6 +122,9 @@ h1{
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
+}
+.rank_1 img{
+    width: 100%;
 }
 .rank_2{
     font-family: 'Montserrat', sans-serif;
@@ -116,23 +132,18 @@ h1{
     margin: 20px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
-.rank_3{
-    font-family: 'Montserrat', sans-serif;
-    width: 30%;
+.container_rank{
+    display: flex;
     margin: 20px;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
 }
 /* Aqui inicia galeria*/
-.grilla_galery{
+.grillagalery{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../Imagenes/mttargon-once-in-a-lifetime.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -203,7 +214,7 @@ h1{
     justify-content: flex-start;
     color: #B3E5FC;
 }
-.Bodyme{
+.grillabodyme{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../Imagenes/shurima-ruins.jpg);
     background-size: cover;
     background-position: center;
@@ -241,9 +252,8 @@ h1{
     margin: 20px;
     padding: 10px;
 }
-.grilla_contact{
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Imagenes/Teemo_14.jpg");
-    height: 100vh;
+.grillacontact{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Imagenes/void-the-fall-of-icathia.jpg");
     background-size: cover;
     background-position: center;
     display: grid;
@@ -255,14 +265,15 @@ h1{
 /*Footer general*/
 .Pie{
     display: flex;
-    color: black;
+    color: #b4b3fc;
     grid-column: 1/4;
 }
 .Pie h3{
-    text-align: center;
+    font-size: medium;
+    text-align: start;
     display: flex;
     flex-direction: column-reverse;
-
+    font-family: 'Montserrat', sans-serif;
 }
 .logo2{
     text-align: left;
