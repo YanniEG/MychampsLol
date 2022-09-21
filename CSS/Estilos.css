@@ -201,7 +201,7 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    color: rgb(207, 173, 247);
+    color: #B3E5FC;
 }
 .Bodyme{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../Imagenes/shurima-ruins.jpg);
@@ -226,7 +226,7 @@ h1{
     text-transform: uppercase;   
 }
 .Formulario_parrafo{
-    color: rgb(207, 173, 247);
+    color: #B3E5FC;
     margin: 20px;
     padding: 10px;
     display: flex;
