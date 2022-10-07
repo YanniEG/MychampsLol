@@ -26,7 +26,7 @@
     text-align: right;
 }
 .Navegacion_Link{
-    color:rgb(10, 194, 170);
+    color:rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     padding: 10px;
@@ -37,7 +37,7 @@
     content: "";
     width: 0;
     height: 4px;
-    background-color: rgb(48, 87, 81);
+    background-color: rgb(85, 171, 197);
     position: absolute;
     bottom: 0;
     right: 50%;
@@ -230,7 +230,7 @@ h1{
     justify-content: center;
 }
 .Formulario h3{
-    color: white;
+    color: rgb(56, 133, 233);
     text-align: center;
     font-style: Times;
     font-weight: 700;
@@ -265,7 +265,7 @@ h1{
 /*Footer general*/
 .Pie{
     display: flex;
-    color: #b4b3fc;
+    color: #fdfdfd;
     grid-column: 1/4;
 }
 .Pie h3{
