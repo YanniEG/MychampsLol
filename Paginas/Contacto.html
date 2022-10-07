@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../CSS/Estilos.css">
 </head>
 <body>
-    <div class="container-fluid grillacontact">       
+    <div class="container-fluid contact">       
     <header class="Header">
         <div class="Header_logo">
             <img src="../Imagenes/Logo.png" alt="Logo">
@@ -32,18 +32,32 @@
                 <h3>Juguemos Juntos</h3>
             </div>
             <form action="">
-                <div>
-                    <input class="mb-2 form-control" type="text" placeholder="Nickname" required>
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                        <input class="mb-2 form-control" type="text" placeholder="Nickname" required>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <input class="mb-2 form-control" type="text" placeholder="Server" required>
+                    </div>
                 </div>
-    
-                <div>
-                    <input class="mb-2 form-control" type="text" placeholder="Server" required>
+                <div class="row gy-3">
+                    <div class="col-md-6">
+                        <input type="text" class="mb-2 form-control" id="cc-name" placeholder="Card Name" required>
+                      </div>
+          
+                      <div class="col-md-6">
+                        <input type="text" class="mb-2 form-control" id="cc-number" placeholder="Card Number" required>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <input type="text" class="mb-2 form-control" id="cc-expiration" placeholder="Expiration" required>
+                      </div>
+          
+                      <div class="col-md-3">
+                        <input type="text" class="mb-2 form-control" id="cc-cvv" placeholder="CVV" required>
+                      </div>
                 </div>
-    
-                <div>
-                     <input class="mb-2 form-control" type="Text" placeholder="Telefono" required>
-                </div>
-    
                 <div>
                     <input class="btn btn-primary" type="submit">
                 </div>
