@@ -6,6 +6,7 @@
 /* Header general*/
 .Header_logo {
   text-align: left;
+  align-items: flex-start;
   width: 100%; }
 
 .Navegacion {
@@ -58,20 +59,16 @@
 
 h1 {
   font-family: 'Roboto', sans-serif;
-  color: #dbdaf5;
+  color: black;
+  text-shadow: -4px -3px aqua;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase; }
 
 .league_1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center; }
-
-.league_1 img {
-  height: auto;
-  width: 100%; }
 
 .League_2 {
   font-family: 'Montserrat', sans-serif;
@@ -81,8 +78,9 @@ h1 {
   justify-content: center; }
 
 .League_2:hover {
-  background-color: rgba(3, 3, 3, 0.411);
-  color: #B3E5FC; }
+  background-color: rgba(3, 3, 3, 0.096);
+  color: #ffffff;
+  text-shadow: 3px 2px 0 black; }
 
 .Centro {
   background-color: rgba(190, 136, 18, 0.048); }
