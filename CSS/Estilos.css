@@ -33,7 +33,7 @@
     content: "";
     width: 0;
     height: 4px;
-    background-color: rgb(85, 171, 197);
+    background-color: rgb(211, 124, 10);
     position: absolute;
     bottom: 0;
     right: 50%;
@@ -44,7 +44,7 @@
 .Navegacion_Link:hover::after{
     width: 100%;
     right: 0;
-    color: cadetblue;
+    color: rgb(0, 0, 0);
 }
 /*Header Fin*/
 /*Aqui va mi home */
@@ -66,9 +66,6 @@ h1{
     text-transform: uppercase;
 }
 .league_1{
-    width: 50%;
-    margin: 20px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,14 +76,10 @@ h1{
     width: 100%;
 }
 .League_2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgba(0, 0, 0, 0);
-    margin: 20px;
-    padding: 10px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    align-items: center;
     justify-content: center;
 }
 .League_2:hover{
@@ -105,7 +98,6 @@ h1{
 .rank_1{
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    width: 300px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -116,25 +108,12 @@ h1{
 }
 .rank_2{
     font-family: 'Montserrat', sans-serif;
-    color: #B3E5FC;
+    color: #ffffff;
+    text-shadow: 3px 1px 0 rgb(0, 0, 0);
     text-align: center;
-}
-.rank_3{
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    color: #FFFFFF;
-}
-.rank_3 img{
-    width: 100%;
-}
-.container_rank{
     display: flex;
-    margin: 20px;
-    padding: 10px;
 }
 /* Aqui inicia galeria*/
 .galery{
@@ -182,7 +161,8 @@ h1{
     display: flex;
     justify-content: flex-start;
     text-align: center;
-    color: #B3E5FC;
+    color: white;
+    text-shadow: 2px 2px 0 black ;
 }
 .bodyme{
     background: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../Imagenes/shurima-ruins.jpg);
@@ -204,7 +184,9 @@ h1{
     text-transform: uppercase;   
 }
 .Formulario_parrafo{
-    color: #B3E5FC;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
     margin: 20px;
     padding: 10px;
     display: flex;
