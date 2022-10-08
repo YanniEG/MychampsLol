@@ -1,63 +1,50 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 /* Header general*/
-.Header_logo {
+header .Header_logo {
   text-align: left;
   align-items: flex-start;
   width: 100%; }
 
-.Navegacion {
+header .Navegacion {
   text-align: right;
-  padding: 10px;
   justify-content: flex-end; }
 
-.Navegacion ul {
+header .Navegacion ul {
   list-style: none;
+  padding: 5px;
+  margin: 10px;
   display: flex;
   justify-content: flex-end;
   text-align: right; }
-
-.Navegacion_Link {
-  color: white;
-  text-shadow: 2px 1px 0 black;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px;
-  padding: 10px;
-  text-decoration: none;
-  position: relative; }
-
-.Navegacion_Link:after {
-  content: "";
-  width: 0;
-  height: 4px;
-  background-color: #db7500;
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  transition: all .5s;
-  will-change: width; }
-
-.Navegacion_Link:hover::after {
-  width: 100%;
-  right: 0;
-  color: #305751; }
+  header .Navegacion ul .Navegacion_Link {
+    color: white;
+    text-shadow: -2px -1px 0 blue;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    position: relative; }
+    header .Navegacion ul .Navegacion_Link:after {
+      content: "";
+      width: 0;
+      height: 4px;
+      background-color: sandybrown;
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      transition: all .5s;
+      will-change: width; }
+    header .Navegacion ul .Navegacion_Link:hover::after {
+      width: 100%;
+      right: 0; }
 
 /*Header Fin*/
 /*Aqui va mi home */
-.home {
+body .home {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url("../Imagenes/Background.jpg");
   background-size: cover;
   background-position: center; }
 
-.home_container {
-  display: flex;
-  margin: 20px;
-  padding: 10px; }
-
-h1 {
+main h1 {
   font-family: 'Roboto', sans-serif;
   color: black;
   text-shadow: -4px -3px aqua;
@@ -65,44 +52,40 @@ h1 {
   font-weight: 700;
   text-transform: uppercase; }
 
-.league_1 {
+main .league_1 {
   display: flex;
   align-items: center;
   justify-content: center; }
 
-.League_2 {
+main .League_2 {
   font-family: 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 0);
   text-align: center;
   align-items: center;
   justify-content: center; }
+  main .League_2:hover {
+    background-color: rgba(3, 3, 3, 0.096);
+    color: #ffffff;
+    text-shadow: 3px 2px 0 black; }
 
-.League_2:hover {
-  background-color: rgba(3, 3, 3, 0.096);
-  color: #ffffff;
-  text-shadow: 3px 2px 0 black; }
-
-.Centro {
-  background-color: rgba(190, 136, 18, 0.048); }
-
+/*Aqui acaba home*/
 /* Aqui inicia rango*/
-.rank {
+body .rank {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../Imagenes/freljord-frostguard.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
-.rank_1 {
+main .rank_1 {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #FFFFFF; }
+  main .rank_1 img {
+    width: 100%; }
 
-.rank_1 img {
-  width: 100%; }
-
-.rank_2 {
+main .rank_2 {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   text-shadow: 3px 1px 0 black;
@@ -112,109 +95,95 @@ h1 {
   display: flex; }
 
 /* Aqui inicia galeria*/
-.galery {
+body .galery {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../Imagenes/mttargon-once-in-a-lifetime.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
-.img_lol {
+main .img_lol {
   font-family: 'Montserrat Alternates', sans-serif;
   color: #FFFFFF;
   text-align: center; }
-
-.img-thumbnail {
-  margin-top: 15px;
-  margin-bottom: 15px; }
-
-.img_lol img:hover {
-  transform: scale(1.15, 1.15); }
-
-.img_lol a {
-  color: #ffffff;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none; }
-
-.img_lol a:hover {
-  color: #1b7ceb; }
+  main .img_lol .img-thumbnail {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    main .img_lol .img-thumbnail:hover {
+      transform: scale(1.15, 1.15); }
+  main .img_lol a {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none; }
+    main .img_lol a:hover {
+      color: #1b7ceb; }
 
 /* Aqui finaliza gallery*/
 /* Inicia about me*/
-.bodyme {
+body .bodyme {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../Imagenes/shurima-ruins.jpg);
   background-size: cover;
   background-position: center; }
 
-.containerimg {
+main .containerimg {
   display: flex;
   justify-content: center; }
+  main .containerimg img {
+    width: 100%; }
 
-.containerimg img {
-  width: 100%; }
-
-.containertext {
+main .containertext {
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: flex-start;
   text-align: center;
-  color: white;
-  text-shadow: 2px 2px 0 black; }
+  color: cyan;
+  text-shadow: -3px -2px 0 black; }
 
-.bodyme {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../Imagenes/shurima-ruins.jpg);
+/* Aqui comienza contacto*/
+body .contact {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Imagenes/void-the-fall-of-icathia.jpg");
   background-size: cover;
   background-position: center; }
 
-/* Aqui comienza contacto*/
-.Formulario {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.Formulario h3 {
+body h2 {
   color: #3885e9;
   text-align: center;
   font-style: Times;
   font-weight: 700;
   text-transform: uppercase; }
 
-.Formulario_parrafo {
+body .Formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body .Formulario_parrafo {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  text-shadow: 3px 3px 0 black;
+  color: aqua;
+  text-shadow: -2px -1px 0 black;
   margin: 20px;
   padding: 10px;
   display: flex;
-  flex-direction: column;
-  justify-items: center;
-  justify-content: center; }
-
-.Formulario_parrafo p {
-  display: flex;
-  justify-content: flex-start;
   text-align: center;
-  margin: 20px;
-  padding: 10px; }
-
-.contact {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Imagenes/void-the-fall-of-icathia.jpg");
-  background-size: cover;
-  background-position: center; }
+  flex-direction: column;
+  align-items: center; }
+  body .Formulario_parrafo p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    margin: 20px;
+    padding: 10px; }
 
 /*Aqui finaliza contacto*/
 /*Footer general*/
-.Pie {
+footer {
   display: flex;
   color: #fdfdfd; }
-
-.Pie h3 {
-  font-size: medium;
-  text-align: start;
-  display: flex;
-  flex-direction: column-reverse;
-  font-family: 'Montserrat', sans-serif; }
-
-.logo2 {
-  text-align: left; }
+  footer h3 {
+    font-size: medium;
+    text-align: start;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: 'Montserrat', sans-serif; }
+  footer .logo2 {
+    text-align: left; }
 
 /* Aqui termina*/
