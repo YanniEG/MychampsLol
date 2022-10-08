@@ -23,6 +23,7 @@
 }
 .Navegacion_Link{
     color:rgb(255, 255, 255);
+    text-shadow: 2px 1px 0 rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
     margin: 10px;
     padding: 10px;
@@ -33,7 +34,7 @@
     content: "";
     width: 0;
     height: 4px;
-    background-color: rgb(211, 124, 10);
+    background-color: rgb(219, 117, 0);
     position: absolute;
     bottom: 0;
     right: 50%;
@@ -44,7 +45,7 @@
 .Navegacion_Link:hover::after{
     width: 100%;
     right: 0;
-    color: rgb(0, 0, 0);
+    color: rgb(48, 87, 81);
 }
 /*Header Fin*/
 /*Aqui va mi home */
