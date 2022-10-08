@@ -184,6 +184,7 @@ footer {
     flex-direction: column-reverse;
     font-family: 'Montserrat', sans-serif; }
   footer .logo2 {
-    text-align: left; }
+    display: flex;
+    align-items: flex-start; }
 
 /* Aqui termina*/

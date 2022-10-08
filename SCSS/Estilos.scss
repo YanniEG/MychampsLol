@@ -222,7 +222,8 @@ footer{
         font-family: 'Montserrat', sans-serif;  
     }
     .logo2{
-        text-align: left; 
+        display: flex;
+        align-items: flex-start;
     }
 }
 /* Aqui termina*/
