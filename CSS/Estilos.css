@@ -117,10 +117,6 @@ h1{
 .rank_2{
     font-family: 'Montserrat', sans-serif;
     color: #B3E5FC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
 .rank_3{
@@ -147,52 +143,35 @@ h1{
     background-repeat: no-repeat;
 }
 .img_lol{
-    margin: 20px;
-    padding: 10px;
     font-family: 'Montserrat Alternates', sans-serif;
     color: #FFFFFF;
-    display: flex;
-    width: 250px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
 }
-.img_lol img:hover{
-    transform: scale(2,2);
+.img-thumbnail{
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.img_lol img{
-    height: auto;
-    width: 100%;
+.img_lol img:hover{
+    transform: scale(1.15,1.15);
 }
 .img_lol a{
-    color: #1b7ceb;
+    color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 .img_lol a:hover{
-    color: black;
+    color: #1b7ceb;
 }
-.galery_img{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-}
+
 /* Aqui finaliza gallery*/
 /* Inicia about me*/
-.containermain{
-    display: flex;
-    margin: 20px;
-    padding: 10px;
-
+.bodyme{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.616)), url(../Imagenes/shurima-ruins.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .containerimg{
-    width: 50%;
-    margin: 20px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: flex;    
     justify-content: center;
 }
 .containerimg img{
@@ -200,12 +179,9 @@ h1{
 }
 .containertext{
     font-family: 'Montserrat', sans-serif;
-    width: 50%;
-    margin: 20px;
-    padding: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
+    text-align: center;
     color: #B3E5FC;
 }
 .bodyme{
