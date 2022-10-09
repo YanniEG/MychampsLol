@@ -19,9 +19,9 @@ header{
             justify-content: flex-end;
             text-align: right;
             .Navegacion_Link{
-                color: rgb(255, 255, 255);
+                color: $color-texto;
                 text-shadow: -2px -1px 0 blue;
-                font-family: 'Montserrat', sans-serif;
+                font-family: $tipgrafia-general;
                 margin: 10px;
                 padding: 10px;
                 text-decoration: none;
@@ -56,7 +56,7 @@ body{
 }
 main{
     h1{
-        font-family: 'Roboto', sans-serif;
+        font-family: $tipografia-secundaria;
         color: black;
         text-shadow: -4px -3px aqua;
         text-align: center;
@@ -69,14 +69,14 @@ main{
         justify-content: center;
     }
     .League_2{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $tipgrafia-general;
         color: rgba(0, 0, 0, 0);
         text-align: center;
         align-items: center;
         justify-content: center;
         &:hover{
             background-color: rgba(3, 3, 3, 0.096);
-            color: #ffffff;
+            color: $color-texto;
             text-shadow: 3px 2px 0 black;
         }
     }
@@ -92,19 +92,19 @@ body{
 }
 main{
     .rank_1{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $tipgrafia-general;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: #FFFFFF;
+        color: $color-texto;
         img{
             width: 100%;
         }
     }
     .rank_2{
-        font-family: 'Montserrat', sans-serif;
-        color: #ffffff;
+        font-family: $tipgrafia-general;
+        color: $color-texto;
         text-shadow: 3px 1px 0 rgb(0, 0, 0);
         text-align: center;
         align-items: center;
@@ -122,8 +122,8 @@ body{
 }
 main{
     .img_lol{
-        font-family: 'Montserrat Alternates', sans-serif;
-        color: #FFFFFF;
+        font-family: $tipografia-terciaria;
+        color: $color-texto;
         text-align: center;
         .img-thumbnail{
             margin-top: 15px;
@@ -133,8 +133,8 @@ main{
             }
         }
         a{
-            color: #ffffff;
-            font-family: 'Montserrat', sans-serif;
+            color: $color-texto;
+            font-family: $tipgrafia-general;
             text-decoration: none;
             &:hover{
                 color: #1b7ceb;
@@ -160,11 +160,11 @@ main{
         }
     } 
     .containertext{
-        font-family: 'Montserrat', sans-serif;
+        font-family: $tipgrafia-general;
         display: flex;
         justify-content: flex-start;
         text-align: center;
-        color: cyan;
+        color: $color-texto2;
         text-shadow: -3px -2px 0 black ;
     }
 }
@@ -190,8 +190,8 @@ body{
         align-items: center;
     }
     .Formulario_parrafo{
-        font-family: 'Montserrat', sans-serif;
-        color: aqua;
+        font-family: $tipgrafia-general;
+        color: $color-texto2;
         text-shadow: -2px -1px 0 rgb(0, 0, 0);
         margin: 20px;
         padding: 10px;
@@ -213,13 +213,13 @@ body{
 /*Footer general*/
 footer{
     display: flex;
-    color: #fdfdfd;
+    color: $color-texto;
     h3{
         font-size: medium;
         text-align: start;
         display: flex;
         flex-direction: column-reverse;
-        font-family: 'Montserrat', sans-serif;  
+        font-family: $tipgrafia-general;  
     }
     .logo2{
         display: flex;
