@@ -1,7 +1,21 @@
+
 $color-texto:white;
 $color-texto2: cyan;
+
 
 $tipgrafia-general:'Montserrat', sans-serif;
 $tipografia-secundaria: 'Roboto', sans-serif;
 $tipografia-terciaria: 'Montserrat Alternates', sans-serif;
+
+$estilos:(
+    flex:flex,
+    center:center,
+    color: white,
+    column:column,
+    uppercase:uppercase,
+    flex-start:flex-start 
+)
+
+
+
 

@@ -18,7 +18,7 @@ header .Navegacion ul {
   header .Navegacion ul .Navegacion_Link {
     color: white;
     text-shadow: -2px -1px 0 blue;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 10px;
     padding: 10px;
     text-decoration: none;
@@ -45,27 +45,27 @@ body .home {
   background-position: center; }
 
 main h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
   text-shadow: -4px -3px aqua;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase; }
 
-main .league_1 {
+main .league_1, main body .Formulario, body main .Formulario {
   display: flex;
   align-items: center;
   justify-content: center; }
 
 main .League_2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: rgba(0, 0, 0, 0);
   text-align: center;
   align-items: center;
   justify-content: center; }
   main .League_2:hover {
     background-color: rgba(3, 3, 3, 0.096);
-    color: #ffffff;
+    color: white;
     text-shadow: 3px 2px 0 black; }
 
 /*Aqui acaba home*/
@@ -76,18 +76,18 @@ body .rank {
   background-repeat: no-repeat; }
 
 main .rank_1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  color: #FFFFFF; }
+  align-items: center;
+  color: white; }
   main .rank_1 img {
     width: 100%; }
 
 main .rank_2 {
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  color: white;
   text-shadow: 3px 1px 0 black;
   text-align: center;
   align-items: center;
@@ -101,8 +101,8 @@ body .galery {
   background-repeat: no-repeat; }
 
 main .img_lol {
-  font-family: 'Montserrat Alternates', sans-serif;
-  color: #FFFFFF;
+  font-family: "Montserrat Alternates", sans-serif;
+  color: white;
   text-align: center; }
   main .img_lol .img-thumbnail {
     margin-top: 15px;
@@ -110,8 +110,8 @@ main .img_lol {
     main .img_lol .img-thumbnail:hover {
       transform: scale(1.15, 1.15); }
   main .img_lol a {
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-family: "Montserrat", sans-serif;
     text-decoration: none; }
     main .img_lol a:hover {
       color: #1b7ceb; }
@@ -130,7 +130,7 @@ main .containerimg {
     width: 100%; }
 
 main .containertext {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   display: flex;
   justify-content: flex-start;
   text-align: center;
@@ -151,19 +151,18 @@ body h2 {
   text-transform: uppercase; }
 
 body .Formulario {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
 
 body .Formulario_parrafo {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: cyan;
   text-shadow: -2px -1px 0 black;
   margin: 20px;
   padding: 10px;
   display: flex;
-  text-align: center;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
   align-items: center; }
   body .Formulario_parrafo p {
     display: flex;
@@ -176,13 +175,13 @@ body .Formulario_parrafo {
 /*Footer general*/
 footer {
   display: flex;
-  color: #fdfdfd; }
-  footer h3 {
+  color: white; }
+  footer h5 {
     font-size: medium;
     text-align: start;
     display: flex;
     flex-direction: column-reverse;
-    font-family: 'Montserrat', sans-serif; }
+    font-family: "Montserrat", sans-serif; }
   footer .logo2 {
     display: flex;
     align-items: flex-start; }

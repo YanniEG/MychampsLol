@@ -1,10 +1,19 @@
 
+@import "_variables";
+@import "_mixin";
+
+
+
+
+
+
+
 
 /* Header general*/
 header{
     .Header_logo{
         text-align: left;
-        align-items: flex-start;
+        align-items: map-get($estilos, flex-start);
         width: 100%;
     }
     .Navegacion{
@@ -19,7 +28,7 @@ header{
             justify-content: flex-end;
             text-align: right;
             .Navegacion_Link{
-                color: $color-texto;
+                color: map-get($estilos, color);
                 text-shadow: -2px -1px 0 blue;
                 font-family: $tipgrafia-general;
                 margin: 10px;
@@ -76,7 +85,7 @@ main{
         justify-content: center;
         &:hover{
             background-color: rgba(3, 3, 3, 0.096);
-            color: $color-texto;
+            color: map-get($estilos, color);
             text-shadow: 3px 2px 0 black;
         }
     }
@@ -93,10 +102,8 @@ body{
 main{
     .rank_1{
         font-family: $tipgrafia-general;
-        display: flex;
-        flex-direction: column;
+        @include flex-column-center
         align-items: center;
-        justify-content: center;
         color: $color-texto;
         img{
             width: 100%;
@@ -104,7 +111,7 @@ main{
     }
     .rank_2{
         font-family: $tipgrafia-general;
-        color: $color-texto;
+        color: map-get($estilos, color);;
         text-shadow: 3px 1px 0 rgb(0, 0, 0);
         text-align: center;
         align-items: center;
@@ -123,7 +130,7 @@ body{
 main{
     .img_lol{
         font-family: $tipografia-terciaria;
-        color: $color-texto;
+        color: map-get($estilos, color);
         text-align: center;
         .img-thumbnail{
             margin-top: 15px;
@@ -133,7 +140,7 @@ main{
             }
         }
         a{
-            color: $color-texto;
+            color:map-get($estilos, color);
             font-family: $tipgrafia-general;
             text-decoration: none;
             &:hover{
@@ -185,9 +192,8 @@ body{
         text-transform: uppercase;   
     }
     .Formulario{
-        display: flex;
+        @extend .league_1;
         flex-direction: column;
-        align-items: center;
     }
     .Formulario_parrafo{
         font-family: $tipgrafia-general;
@@ -195,9 +201,8 @@ body{
         text-shadow: -2px -1px 0 rgb(0, 0, 0);
         margin: 20px;
         padding: 10px;
-        display: flex;
+        @include flex-column-center
         text-align: center;
-        flex-direction: column;
         align-items: center;
         p{
             display: flex;
@@ -213,8 +218,8 @@ body{
 /*Footer general*/
 footer{
     display: flex;
-    color: $color-texto;
-    h3{
+    color:map-get($estilos, color);
+    h5{
         font-size: medium;
         text-align: start;
         display: flex;
