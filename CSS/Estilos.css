@@ -154,14 +154,14 @@ body .Formulario {
   flex-direction: column; }
 
 body .Formulario_parrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-family: "Montserrat", sans-serif;
   color: cyan;
   text-shadow: -2px -1px 0 black;
   margin: 20px;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
   align-items: center; }
   body .Formulario_parrafo p {

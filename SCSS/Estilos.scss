@@ -196,12 +196,12 @@ body{
         flex-direction: column;
     }
     .Formulario_parrafo{
+        @include flex-column-center
         font-family: $tipgrafia-general;
         color: $color-texto2;
         text-shadow: -2px -1px 0 rgb(0, 0, 0);
         margin: 20px;
         padding: 10px;
-        @include flex-column-center
         text-align: center;
         align-items: center;
         p{
