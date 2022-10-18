@@ -83,7 +83,7 @@ main .rank_1 {
   align-items: center;
   color: white; }
   main .rank_1 img {
-    width: 100%; }
+    width: auto; }
 
 main .rank_2 {
   font-family: "Montserrat", sans-serif;
