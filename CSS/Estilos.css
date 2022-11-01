@@ -72,8 +72,8 @@ main .League_2 {
 /* Aqui inicia rango*/
 body .rank {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../Imagenes/freljord-frostguard.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 main .rank_1 {
   font-family: "Montserrat", sans-serif;
@@ -175,15 +175,16 @@ body .Formulario_parrafo {
 /*Footer general*/
 footer {
   display: flex;
+  justify-content: space-between;
   color: white; }
-  footer h5 {
+  footer p {
     font-size: medium;
     text-align: start;
     display: flex;
     flex-direction: column-reverse;
     font-family: "Montserrat", sans-serif; }
   footer .logo2 {
-    display: flex;
+    text-align: left;
     align-items: flex-start; }
 
 /* Aqui termina*/

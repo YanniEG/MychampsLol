@@ -95,8 +95,8 @@ main{
 body{
     .rank{
         background: linear-gradient(to right, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.514)), url(../Imagenes/freljord-frostguard.jpg);
-        background-size: cover;
         background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 main{
@@ -218,8 +218,9 @@ body{
 /*Footer general*/
 footer{
     display: flex;
+    justify-content: space-between;
     color:map-get($estilos, color);
-    h5{
+    p{
         font-size: medium;
         text-align: start;
         display: flex;
@@ -227,8 +228,8 @@ footer{
         font-family: $tipgrafia-general;  
     }
     .logo2{
-        display: flex;
-        align-items: flex-start;
+        text-align: left;
+        align-items: map-get($estilos, flex-start);
     }
 }
 /* Aqui termina*/
