@@ -133,10 +133,10 @@ main{
         color: map-get($estilos, color);
         text-align: center;
         .img-thumbnail{
-            margin-top: 15px;
-            margin-bottom: 15px;
+            margin-top: 10px;
+            margin-bottom: 10px;
             &:hover{
-                transform: scale(1.15,1.15);
+                transform: scale(1.05,1.05);
             }
         }
         a{
